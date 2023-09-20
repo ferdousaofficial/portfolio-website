@@ -1,16 +1,7 @@
-import Developer from './partials/developer'
-import Hero from './partials/hero'
-
 export const metadata = {
-  title: 'Next js 13 starter template | Home', 
-}
-
+  title: " Ferdous Al Hasan - Front-end Web Developer",
+};
 
 export default function Home() {
-  return (
-    <>
-      <Hero />
-      <Developer />
-    </>
-  )
+  return <></>;
 }
