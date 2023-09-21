@@ -1,5 +1,5 @@
 <div align="center">
-    <img src="public/images/nextjs-13-template-thumnail.png" alt="Logo" width="100%">
+    <img src="public/images/git-thumnail.png" alt="Logo" width="100%">
 </div>
 
 ## 🔥 Next js 13 starter template
