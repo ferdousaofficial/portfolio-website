@@ -8,24 +8,20 @@ export const cx = classNames;
 
 // nav data
 export const navData : NavDataTypes[] = [
+ 
   {
-    name : "Home",
-    path : "/"
+    name : "Experience",
+    path : "#experience"
   },
   {
-    name : "About",
-    path : "/about"
+    name : "Works",
+    path : "/works"
   },
   {
-    name : "Sign in",
-    path : "/signin"
-  },
-  {
-    name : "Sign up",
-    path : "/signup"
+    name : "Reviews",
+    path : "#reviews"
   }
 ]
-
 
 /* =======================  =======================
    On this file you can put global data 

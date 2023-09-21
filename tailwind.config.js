@@ -28,7 +28,7 @@ module.exports = {
         widest: "0.4em",
       },
       boxShadow: {
-        button: "0px 5px 0px #000",
+        button: "0px 5px 0px #edeeed",
       },
     },
   },
