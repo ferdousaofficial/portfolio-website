@@ -9,8 +9,8 @@ const Hero: React.FC = () => {
         <Header />
         <Info />
         <Button
-          children={"Get in touch 👋"}
-          href={"#contact"}
+          children={"Book A Quick Call "}
+          href={"https://calendly.com/ferdousaofficial/discussion-consultation"}
           classname="px-7"
         />
       </div>
