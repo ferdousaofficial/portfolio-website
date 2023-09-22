@@ -3,7 +3,7 @@ import Image from "next/image";
 const Header: React.FC = () => {
   return (
     <div className="space-y-4">
-      <div className="w-[182px] h-[192px] mx-auto">
+      <div className="sm:w-[182px] sm:h-[192px] w-[160px] h-[160px]  mx-auto">
         <Image
           src={"/images/myself.svg"}
           alt="person"
@@ -11,7 +11,7 @@ const Header: React.FC = () => {
           width={182}
         />
       </div>
-      <h2 className="text-[28px] font-semibold ">Hi, I'm Ferdous Al Hasan 👋</h2>
+      <h2 className="sm:text-[28px] text-[25px] font-semibold ">Hi, I'm Ferdous Al Hasan 👋</h2>
     </div>
   );
 };

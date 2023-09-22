@@ -12,3 +12,9 @@
     direction: rtl;
   }
 }
+
+@layer base{
+  *{
+    @apply scroll-smooth
+  }
+}

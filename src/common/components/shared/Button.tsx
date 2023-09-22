@@ -20,8 +20,8 @@ const Button: React.FC<ButtonProps> = ({
       <button
         className={` py-3 px-5 ${classname} ${
           seconday
-            ? "hover:bg-[#ededed] hover:shadow-button hover:translate-y-[-6px] active:shadow-none active:translate-y- bg-[#ededed]"
-            : "bg-black text-white smooth hover:text-[#485460] hover:bg-[#ededed] hover:shadow-button hover:translate-y-[-6px] active:shadow-none active:translate-y-0"
+            ? "hover:bg-[#ededed] bg-[#ededed]"
+            : "bg-black text-white smooth hover:text-[#485460] hover:bg-[#ededed] "
         }`}
         onClick={onClick}
       >

@@ -11,16 +11,36 @@ export const navData: NavDataTypes[] = [
     path: "#",
   },
   {
-    name: "Skill",
-    path: "#skill",
-  },
-  {
     name: "Works",
     path: "#works",
   },
   {
+    name: "Skills",
+    path: "#skills",
+  },
+  {
     name: "Contact",
     path: "#contact",
+  },
+];
+
+// social links
+export const socialLinks: NavDataTypes[] = [
+  {
+    name: "linkedin",
+    path: "#",
+  },
+  {
+    name: "github",
+    path: "#works",
+  },
+  {
+    name: "fiverr",
+    path: "#skill",
+  },
+  {
+    name: "instagram",
+    path: "#skill",
   },
 ];
 
