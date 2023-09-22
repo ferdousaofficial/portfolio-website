@@ -11,7 +11,9 @@ const Header: React.FC = () => {
           width={182}
         />
       </div>
-      <h2 className="sm:text-[28px] text-[25px] font-semibold ">Hi, I'm Ferdous Al Hasan 👋</h2>
+      <h2 className="sm:text-[28px] text-[24px] font-semibold ">
+        Hi, I'm Ferdous Al Hasan 👋
+      </h2>
     </div>
   );
 };
