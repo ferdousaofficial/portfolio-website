@@ -3,7 +3,7 @@ import { ServiceList } from "@/shared/config/constants";
 
 const Service: React.FC = () => {
   return (
-    <div className="lg:w-[48%] w-11/12">
+    <div className="lg:w-[48%] w-11/12 ">
       <Card
         title="Service "
         subtitle="I offer the highest quality front-end web development services, including:"

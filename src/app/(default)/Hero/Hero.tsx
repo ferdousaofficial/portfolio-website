@@ -4,7 +4,7 @@ import Info from "./Info";
 
 const Hero: React.FC = () => {
   return (
-    <div className="text-center py-[85px]">
+    <div className="text-center py-[80px]">
       <div className="container">
         <Header />
         <Info />

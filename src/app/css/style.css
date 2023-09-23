@@ -13,8 +13,8 @@
   }
 }
 
-@layer base{
-  *{
-    @apply scroll-smooth
+@layer base {
+  * {
+    @apply scroll-smooth;
   }
 }

@@ -12,7 +12,7 @@ const Card: React.FC<CardProps> = ({ title, subtitle, body, colBody }) => {
     <div
       className={`p-[20px] ${
         colBody ? "flex items-center justify-between" : ""
-      } rounded-[12px] bg-white border border-[#E1DDDD] `}
+      } rounded-[12px] bg-white `}
     >
       <div className="basis-1/2">
         <div className="pb-[15px] space-y-3">

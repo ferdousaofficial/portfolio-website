@@ -1,8 +1,8 @@
 import Contact from "./Contact/Contact";
-import Footer from "./Footer/Footer";
 import Hero from "./Hero/Hero";
 import Service from "./Service/Service";
 import Skills from "./Skills/Skills";
+import Testimonial from "./Testimoinals/testimonial";
 import Works from "./Works/Works";
 
 export const metadata = {
@@ -14,16 +14,16 @@ export default function Home() {
     <>
       <Hero />
       {/* service and skill section */}
-      <div className="container pb-[80px]" id="skills">
-        <div className="flex flex-wrap lg:justify-between justify-center lg:space-y-0 space-y-[30px]">
+      <div className="py-[80px] bg-[#f5f5f5]" id="skills">
+        <div className=" container  flex flex-wrap lg:justify-between justify-center lg:space-y-0 space-y-[30px]">
           <Service />
           <Skills />
         </div>
       </div>
 
       <Works />
+      <Testimonial />
       <Contact />
-      <Footer />
     </>
   );
 }
