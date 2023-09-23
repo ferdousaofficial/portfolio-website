@@ -1,5 +1,10 @@
 import classNames from "classnames";
-import { NavDataTypes } from "./types";
+import {
+  NavDataTypes,
+  ServiceListType,
+  SkillsType,
+  socialLinksTypes,
+} from "./types";
 
 // whenever we need to change default className value we will use this
 export const cx = classNames;
@@ -25,25 +30,47 @@ export const navData: NavDataTypes[] = [
 ];
 
 // social links
-export const socialLinks: NavDataTypes[] = [
+export const socialLinks: socialLinksTypes[] = [
   {
-    name: "linkedin",
-    path: "#",
+    src: "/images/icons/github.svg",
+    path: "https://github.com/ferdousaofficial",
   },
   {
-    name: "github",
-    path: "#works",
+    src: "/images/icons/linkedin.svg",
+    path: "https://www.linkedin.com/in/ferdousaofficial",
   },
   {
-    name: "fiverr",
-    path: "#skill",
+    src: "/images/icons/facebook.svg",
+    path: "https://facebook.com/theferdousa",
   },
   {
-    name: "instagram",
-    path: "#skill",
+    src: "/images/icons/instagram.svg",
+    path: "https://instagram.com/ferdousaofficial",
   },
 ];
 
-/* =======================  =======================
-   On this file you can put global data 
- =======================  =======================*/
+// skills
+export const skills: SkillsType = [
+  "React Js",
+  "Next Js",
+  "JavaScript",
+  "TypeScript",
+  "Html",
+  "Css",
+  "Bootstrap",
+  "Tailwind Css",
+  "Sass",
+  "MIUI",
+  "Node Js",
+  "Express Js",
+  "MongoDB",
+];
+
+// Service list data
+export const ServiceList: ServiceListType = [
+  "Fully Responsive",
+  "SEO Friendly Code",
+  "Performance optimization",
+  "Maintenance and support",
+  "Use Latest Technologies",
+];
