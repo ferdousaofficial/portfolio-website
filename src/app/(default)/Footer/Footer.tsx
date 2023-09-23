@@ -4,7 +4,7 @@ import { socialLinks } from "@/shared/config/constants";
 const Footer: React.FC = () => {
   return (
     <div className="text-center">
-      <div className="container pb-[50px] flex items-center  justify-between ">
+      <div className="container pb-[50px] flex items-center flex-wrap lg:justify-between gap-5 justify-center ">
         <p>
           Email Me at:{" "}
           <a href="mailto:ferdousaofficial@gmail.com" className="font-medium">
