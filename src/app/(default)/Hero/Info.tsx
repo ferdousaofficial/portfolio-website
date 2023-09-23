@@ -8,7 +8,7 @@ const Info: React.FC = () => {
       <img
         src="/images/needle-underline.png"
         alt=""
-        className="absolute max-w-[250px] xl:top-[65px] lg:top-[50px] xl:left-[8rem] lg:left-[6rem] md:top-[50px] md:left-[1rem] lg:w-[250px] md:w-[200px] top-[45px] w-[180px]"
+        className="absolute max-w-[250px] xl:top-[65px] lg:top-[50px] xl:left-[8rem] lg:left-[6rem] md:top-[50px] md:left-[1rem] left-[1rem] lg:w-[250px] md:w-[200px] top-[45px] w-[180px]"
       />
 
       <p className="lg:text-lg sm:text-base text-[14px] pb-5 lg:w-5/6 mx-auto leading-loose">
