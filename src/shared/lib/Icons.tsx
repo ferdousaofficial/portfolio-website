@@ -1,15 +1,10 @@
 // import icons from react-icons
-import { AiFillGithub, AiFillLinkedin, AiFillFacebook, AiFillRedditCircle } from 'react-icons/ai'
-import { TfiWorld } from 'react-icons/tfi'
+import { BsArrowLeft, BsArrowRight } from "react-icons/bs";
 //
-import { IconsTypes } from '../config/types'
+import { IconsTypes } from "../config/types";
 
-
-// icon export 
-export const icons : IconsTypes = {
-    github : AiFillGithub,
-    linkedin : AiFillLinkedin,
-    facebook : AiFillFacebook,
-    web : TfiWorld,
-    reddit : AiFillRedditCircle
-}
+// icon export
+export const icons: IconsTypes = {
+  leftArrow: BsArrowLeft,
+  rightArrow: BsArrowRight,
+};

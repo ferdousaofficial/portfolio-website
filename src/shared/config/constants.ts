@@ -3,6 +3,7 @@ import {
   NavDataTypes,
   ServiceListType,
   SkillsType,
+  TestimonialsType,
   socialLinksTypes,
 } from "./types";
 
@@ -23,6 +24,10 @@ export const navData: NavDataTypes[] = [
     name: "Skills",
     path: "#skills",
   },
+  // {
+  //   name: "Testimonial",
+  //   path: "#testimonial",
+  // },
   {
     name: "Contact",
     path: "#contact",
@@ -73,4 +78,26 @@ export const ServiceList: ServiceListType = [
   "Performance optimization",
   "Maintenance and support",
   "Use Latest Technologies",
+];
+
+// Service list data
+export const Testimonials: TestimonialsType[] = [
+  {
+    review:
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer.",
+    name: "John Deo",
+    profession: "Founder of XYZ Company",
+  },
+  {
+    review:
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer.",
+    name: "Robert Deo",
+    profession: "Founder of XYZ Company",
+  },
+  {
+    review:
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer.",
+    name: "Steven Bartlett",
+    profession: "Founder of Third Web",
+  },
 ];

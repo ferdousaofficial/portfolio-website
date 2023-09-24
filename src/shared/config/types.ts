@@ -32,3 +32,10 @@ export type SkillsType = string[];
 
 // define type for Service List
 export type ServiceListType = string[];
+
+// define interfece for testimonials
+export interface TestimonialsType {
+  name: string;
+  review: string;
+  profession: string;
+}

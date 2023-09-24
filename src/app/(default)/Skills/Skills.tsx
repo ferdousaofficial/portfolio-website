@@ -1,5 +1,5 @@
 import Card from "@/common/components/shared/Card";
-import SkillTag from "@/common/components/shared/SkillTag";
+import SkillTag from "@/common/components/ui/SkillTag";
 import { skills } from "@/shared/config/constants";
 
 const Skills: React.FC = () => {
