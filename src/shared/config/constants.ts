@@ -13,10 +13,6 @@ export const cx = classNames;
 // nav data
 export const navData: NavDataTypes[] = [
   {
-    name: "Home",
-    path: "#",
-  },
-  {
     name: "Works",
     path: "#works",
   },
@@ -24,10 +20,10 @@ export const navData: NavDataTypes[] = [
     name: "Skills",
     path: "#skills",
   },
-  // {
-  //   name: "Testimonial",
-  //   path: "#testimonial",
-  // },
+  {
+    name: "Testimonial",
+    path: "#testimonial",
+  },
   {
     name: "Contact",
     path: "#contact",

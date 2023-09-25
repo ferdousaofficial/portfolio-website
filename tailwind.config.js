@@ -28,7 +28,7 @@ module.exports = {
         widest: "0.4em",
       },
       boxShadow: {
-        button: "0px 5px 0px #edeeed",
+        email: "0px 0px 26px 3px rgba(198, 194, 194, 0.25)",
       },
     },
   },

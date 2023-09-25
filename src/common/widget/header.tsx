@@ -5,6 +5,7 @@ import Button from "../components/shared/Button";
 import Brand from "../components/ui/brand";
 import MobileNav from "./MobileNavbar/MobileNav";
 import { useState } from "react";
+import Icon from "../components/shared/icon";
 
 const header: React.FC = () => {
   const [isActive, setIsActive] = useState<boolean>(false);
@@ -44,8 +45,16 @@ const header: React.FC = () => {
         </ul>
       </div>
       {/* contact button */}
-      <div className="hidden lg:block">
-        <Button children={"Get in touch 👋"} href={"#contact"} />
+      <div className="hidden lg:flex items-center gap-2 ">
+        <div className="bg-white shadow-email w-[40px] h-[40px] rounded-full grid place-content-center">
+          <Icon name="email" />
+        </div>{" "}
+        <a
+          href="mailto:ferdousaofficial@gmail.com"
+          className="text-[14px] font-medium"
+        >
+          ferdousaofficial@gmail.com
+        </a>
       </div>
 
       {/* mobile nav */}

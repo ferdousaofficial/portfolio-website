@@ -3,7 +3,13 @@ import SectionTitle from "@/common/components/shared/SectionTitle";
 
 const Contact: React.FC = () => {
   return (
-    <div className="text-center " id="contact">
+    <div className="text-center  relative" id="contact">
+      <img
+        src="/images/Vector.png"
+        alt=""
+        className="absolute
+       w-full -z-10  "
+      />
       <div className="container pt-[50px] md:pb-[80px] pb-[30px] space-y-[12.5px]">
         <SectionTitle
           title="Get In Touch"
@@ -20,21 +26,6 @@ const Contact: React.FC = () => {
               "https://calendly.com/ferdousaofficial/discussion-consultation"
             }
           />
-
-          <div className="">
-            <h3 className="text-2xl italic font-semibold pt-[30px] pb-[20px]">
-              Or
-            </h3>
-            <p className="text-[#1C2833] text-lg">
-              Email Me at:{" "}
-              <a
-                href="mailto:ferdousaofficial@gmail.com"
-                className="font-medium "
-              >
-                ferdousaofficial@gmail.com
-              </a>
-            </p>
-          </div>
         </div>
       </div>
     </div>
