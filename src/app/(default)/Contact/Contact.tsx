@@ -4,12 +4,7 @@ import SectionTitle from "@/common/components/shared/SectionTitle";
 const Contact: React.FC = () => {
   return (
     <div className="text-center  relative" id="contact">
-      <img
-        src="/images/Vector.png"
-        alt=""
-        className="absolute
-       w-full -z-10  "
-      />
+   
       <div className="container pt-[50px] md:pb-[80px] pb-[30px] space-y-[12.5px]">
         <SectionTitle
           title="Get In Touch"

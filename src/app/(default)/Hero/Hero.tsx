@@ -7,11 +7,6 @@ const Hero: React.FC = () => {
     <div className="text-center py-[80px] h-screen ">
       <div className="container">
         <div className="relative">
-          <img
-            src="images/bg-victor-2.png"
-            alt=""
-            className="absolute w-screen -z-10  2xl:top-0 xl:bottom: xl:top-0 sm:top-[5.5rem] bottom-[38%] "
-          />
           <Header />
           <Info />
           <Button
