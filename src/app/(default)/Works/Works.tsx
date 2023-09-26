@@ -23,11 +23,7 @@ const Works: React.FC = () => {
               <Button children={"View Live"} classname={"px-[40px]"} />
             </div>
           }
-          colBody={
-            <div>
-              <Image src={'/public'} />
-            </div>
-          }
+          colBody={<div>{/* <Image src={'/public'} /> */}</div>}
         />
       </div>
     </div>
