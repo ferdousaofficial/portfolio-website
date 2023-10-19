@@ -1,6 +1,5 @@
 import React from "react";
 import { motion } from "framer-motion";
-import styles from "./styles.module.scss";
 
 export default function Curve() {
   const initialPath = `M100 0 L100 ${window.innerHeight} Q-100 ${

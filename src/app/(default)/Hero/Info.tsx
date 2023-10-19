@@ -11,17 +11,20 @@ const Info: React.FC = () => {
         className="absolute max-w-[250px] xl:top-[65px] lg:top-[50px] xl:left-[8rem] lg:left-[6rem] md:top-[50px] md:left-[1rem] left-[1rem] lg:w-[250px] md:w-[200px] top-[45px] w-[180px]"
       />
 
-      <p className="lg:text-lg sm:text-base text-[14px] pb-5 lg:w-5/6 mx-auto leading-loose">
+      <p className="lg:text-lg sm:text-base text-[14px] pb-2 lg:w-5/6 mx-auto leading-loose">
         I'm a passionate{" "}
         <span className="font-[600]">
           Full-stack web developer with over 1.5 years of experience
-        </span>{" "}
-        , and my true expertise lies in{" "}
-        <span className="font-[600]">Front-end Development.</span> My forte is
-        crafting cutting-edge, user-centric websites that deliver top-notch
-        performance using the latest technologies.
+        </span>{" "} , and
+        specialize in creating high-performing, user-centric websites using the
+        latest technologies. Currently, I work as a junior{" "}
+        <span className="font-[600]">
+          Front-end Web Developer at Upsoul Digital.{" "}
+        </span>
       </p>
     </div>
   );
 };
 export default Info;
+
+// I am a Full-stack web developer with 1.5 years of experience. I specialize in creating high-performing, user-centric websites using the latest technologies.
