@@ -17,3 +17,11 @@ export interface skillsTypes {
   id: number;
   image: string;
 }
+
+// define interface for skill items
+export interface ServiceItemTypes {
+  id: number;
+  icon: string;
+  title: string;
+  text: string;
+}

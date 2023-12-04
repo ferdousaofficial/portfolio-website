@@ -1,5 +1,5 @@
 import classNames from "classnames";
-import { navItemsTypes, skillsTypes } from "./types";
+import { ServiceItemTypes, navItemsTypes, skillsTypes } from "./types";
 
 // whenever we need to change default className value we will use this
 export const cx = classNames;
@@ -74,5 +74,45 @@ export const skillItems: skillsTypes[] = [
   {
     id: 10,
     image: "/images/skills/sass.png",
+  },
+];
+
+// service items
+export const ServiceItems: ServiceItemTypes[] = [
+  {
+    id: 1,
+    icon: "/icons/service-icons/website-layout.png",
+    title: "new modern UI",
+    text: "Based on your requirements, we'll design a new modern user interface for your website.",
+  },
+  {
+    id: 2,
+    icon: "/icons/service-icons/technology.png",
+    title: "Use Latest technology",
+    text: "We'll use the latest technology to create a website that surpasses your expectations.",
+  },
+  {
+    id: 3,
+    icon: "/icons/service-icons/seo.png",
+    title: "SEO Friendly",
+    text: "We make sure that the website we create is optimized for search engines.",
+  },
+  {
+    id: 4,
+    icon: "/icons/service-icons/responsive.png",
+    title: "Fully responsive",
+    text: "Our priority is to create websites that're fully responsive and accessible across all devices.",
+  },
+  {
+    id: 5,
+    icon: "/icons/service-icons/performance.png",
+    title: "High Performance",
+    text: "Our websites are optimized for high performance, ensuring a seamless user experience.",
+  },
+  {
+    id: 6,
+    icon: "/icons/service-icons/maintaince.png",
+    title: "Easy to Maintain",
+    text: "We build user-friendly websites that are easy to maintain for developers.",
   },
 ];

@@ -1,4 +1,5 @@
 import Hero from "./components/ui/hero";
+import Services from "./components/ui/services";
 import Skills from "./components/ui/skills";
 
 const page: React.FC = () => {
@@ -6,6 +7,7 @@ const page: React.FC = () => {
     <div>
       <Hero />
       <Skills />
+      <Services />
     </div>
   );
 };
