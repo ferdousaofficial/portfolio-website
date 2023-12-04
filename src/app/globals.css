@@ -14,3 +14,22 @@ h5,
 h6 {
   font-family: var(--font-playfairDisplay) !important;
 }
+
+@layer base {
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    @apply text-mainColor;
+  }
+
+  .container {
+    @apply !w-full !px-[.75rem] mx-auto 2xl:!max-w-[1280px] xl:!max-w-[1180px] lg:!max-w-[992px] md:!max-w-[720px] sm:!max-w-[576px];
+  }
+
+  .smooth {
+    @apply transition-all duration-200 ease-in-out;
+  }
+}
