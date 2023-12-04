@@ -1,9 +1,9 @@
 import Image from "next/image";
-import Button from "./common/button";
+import Button from "../common/button";
 
 const Hero: React.FC = () => {
   return (
-    <div className="h-[90vh] grid place-content-center">
+    <div className="h-full py-[50px] 2xl:mt-[120px] grid place-content-center">
       <div className="container">
         <div className="space-y-5">
           <Image

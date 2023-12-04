@@ -11,3 +11,9 @@ export interface navItemsTypes {
   name: string;
   route: string;
 }
+
+// define interface for skill items
+export interface skillsTypes {
+  id: number;
+  image: string;
+}
