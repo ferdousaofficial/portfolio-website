@@ -33,3 +33,13 @@ export interface ItemTypes {
   title: string;
   text: string;
 }
+
+// define interface for portfolio Items
+export interface portfolioItemsTypes {
+  id: number;
+  thumbnail: string;
+  title: string;
+  text: string;
+  link: string;
+  align: string;
+}

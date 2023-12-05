@@ -17,13 +17,13 @@ const Button: React.FC<ButtonProps> = ({
   styles,
 }) => {
   return (
-    <Link href={`${href || "#"}`}>
+    <Link href={`${href || "#"}`} target="_blank">
       <button
         className={cx(
-          `py-4 px-8 rounded-full ${styles} ${
+          ` capitalize smooth ${styles} ${
             seconday
-              ? "bg-transparent underline"
-              : "bg-mainColor text-white smooth hover:bg-mainColor/90 "
+              ? "bg-transparent underline underline-offset-[4px] text-textColor2 hover:text-textColor1"
+              : "py-4 px-8 rounded-full bg-mainColor text-white  hover:bg-mainColor/90 "
           }`
         )}
         onClick={onClick}

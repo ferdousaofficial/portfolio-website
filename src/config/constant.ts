@@ -1,5 +1,10 @@
 import classNames from "classnames";
-import { ItemTypes, navItemsTypes, skillsTypes } from "./types";
+import {
+  ItemTypes,
+  navItemsTypes,
+  portfolioItemsTypes,
+  skillsTypes,
+} from "./types";
 
 // whenever we need to change default className value we will use this
 export const cx = classNames;
@@ -142,5 +147,33 @@ export const OurApprochItems: ItemTypes[] = [
     icon: "/icons/our-approch-icons/step-4.svg",
     title: "Launch the Website",
     text: "Once your website is complete and you're satisfied, we'll seamlessly launch it to the world.",
+  },
+];
+
+// works data
+export const portfolioItems: portfolioItemsTypes[] = [
+  {
+    id: 1,
+    thumbnail: "/images/works/project-1.png",
+    title: "ShopScript",
+    text: "I developed the front-end of this e-commerce website. It is built with Next Js 14 , Tailwind Css , and Framer Motion.",
+    link: "https:shopscript-web.vercel.app",
+    align: "left",
+  },
+  {
+    id: 1,
+    thumbnail: "/images/works/project-2.png",
+    title: "ShopScript",
+    text: "I developed the front-end of this e-commerce website. It is built with Next Js 14 , Tailwind Css , and Framer Motion.",
+    link: "https:shopscript-web.vercel.app",
+    align: "right",
+  },
+  {
+    id: 1,
+    thumbnail: "/images/works/project-3.png",
+    title: "ShopScript",
+    text: "I developed the front-end of this e-commerce website. It is built with Next Js 14 , Tailwind Css , and Framer Motion.",
+    link: "https:shopscript-web.vercel.app",
+    align: "left",
   },
 ];
