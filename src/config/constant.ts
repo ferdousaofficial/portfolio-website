@@ -1,5 +1,5 @@
 import classNames from "classnames";
-import { ServiceItemTypes, navItemsTypes, skillsTypes } from "./types";
+import { ItemTypes, navItemsTypes, skillsTypes } from "./types";
 
 // whenever we need to change default className value we will use this
 export const cx = classNames;
@@ -78,7 +78,7 @@ export const skillItems: skillsTypes[] = [
 ];
 
 // service items
-export const ServiceItems: ServiceItemTypes[] = [
+export const ServiceItems: ItemTypes[] = [
   {
     id: 1,
     icon: "/icons/service-icons/website-layout.png",
@@ -114,5 +114,33 @@ export const ServiceItems: ServiceItemTypes[] = [
     icon: "/icons/service-icons/maintaince.png",
     title: "Easy to Maintain",
     text: "We build user-friendly websites that are easy to maintain for developers.",
+  },
+];
+
+// our apporch data
+export const OurApprochItems: ItemTypes[] = [
+  {
+    id: 1,
+    icon: "/icons/our-approch-icons/step-1.svg",
+    title: "Planning & Preparation",
+    text: "We'll lay the foundation of your website by defining your goals, target audience, and content strategy.",
+  },
+  {
+    id: 2,
+    icon: "/icons/our-approch-icons/step-2.svg",
+    title: "Design the UI",
+    text: "We'll craft a modern & user-friendly UI for your website that provides an effortless user experience.",
+  },
+  {
+    id: 3,
+    icon: "/icons/our-approch-icons/step-3.svg",
+    title: "Design Implementation",
+    text: "We'll develop your website using the latest and best technology based on the design.",
+  },
+  {
+    id: 4,
+    icon: "/icons/our-approch-icons/step-4.svg",
+    title: "Launch the Website",
+    text: "Once your website is complete and you're satisfied, we'll seamlessly launch it to the world.",
   },
 ];

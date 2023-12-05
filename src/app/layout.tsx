@@ -30,7 +30,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${poppins.className} ${playfairDisplay.variable} text-textColor1`}
+        className={`${poppins.className} ${playfairDisplay.variable} text-[15px] text-textColor1`}
       >
         <Header/>
         {children}

@@ -8,13 +8,13 @@ const Skills: React.FC = () => {
     <div className="overflow-x-auto lg:overflow-hidden">
       <div className="container">
         <Marquee>
-          <div className="flex items-center 2xl:justify-center gap-7  ">
+          <div className="flex items-center 2xl:justify-center">
             {skillItems.map((item) => (
               <img
                 key={item.id}
                 src={item.image}
                 alt={item.image}
-                className="w-fit"
+                className="w-fit mx-5"
               />
             ))}
           </div>

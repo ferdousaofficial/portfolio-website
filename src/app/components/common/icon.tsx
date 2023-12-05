@@ -1,8 +1,8 @@
+'use client'
 import { icons } from "@/config/Icons";
 import { cx } from "@/config/constant";
 import React from "react";
 import { IconType } from "react-icons";
-//
 
 interface IconProps {
   name: keyof typeof icons;

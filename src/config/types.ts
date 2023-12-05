@@ -19,7 +19,15 @@ export interface skillsTypes {
 }
 
 // define interface for skill items
-export interface ServiceItemTypes {
+export interface ItemTypes {
+  id: number;
+  icon: string;
+  title: string;
+  text: string;
+}
+
+// define interface for our apporch items
+export interface ItemTypes {
   id: number;
   icon: string;
   title: string;
