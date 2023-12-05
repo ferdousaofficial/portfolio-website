@@ -20,7 +20,7 @@ const Button: React.FC<ButtonProps> = ({
     <Link href={`${href || "#"}`} target="_blank">
       <button
         className={cx(
-          ` capitalize smooth ${styles} ${
+          ` capitalize text-base   smooth ${styles} ${
             seconday
               ? "bg-transparent underline underline-offset-[4px] text-textColor2 hover:text-textColor1"
               : "py-4 px-8 rounded-full bg-mainColor text-white  hover:bg-mainColor/90 "

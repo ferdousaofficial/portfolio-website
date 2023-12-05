@@ -50,3 +50,11 @@ export interface socialIconsTypes {
   link: string;
   imgSrc: string;
 }
+
+// define interface for articles
+export interface articlesTypes {
+  id: number;
+  coverImage: string;
+  title: string;
+  link: string;
+}

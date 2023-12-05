@@ -30,18 +30,28 @@ const Works: React.FC = () => {
             >
               <h2
                 className={`${
-                  item.align === "right" ? "2xl:-mr-20 lg:-mr-16 md:-mr-12" : "2xl:-ml-20 lg:-ml-16 md:-ml-12"
+                  item.align === "right"
+                    ? "2xl:-mr-20 lg:-mr-16 md:-mr-12"
+                    : "2xl:-ml-20 lg:-ml-16 md:-ml-12"
                 } xl:text-[38px] lg:text-[36px] md:text-[34px] text-[32px] font-medium `}
               >
                 {item.title}
               </h2>
-              <p className="!my-3 leading-[1.75] text-textColor2 xl:text-base lg:text-[15px] md:text-[14px] xl:w-11/12">
+              <p
+                className={`!my-3 leading-[1.75] text-textColor2 xl:text-base lg:text-[15px] md:text-[14px] w-11/12 ${
+                  item.align === "right" && "sm:ml-auto"
+                }`}
+              >
                 {item.text}
               </p>
               <Button seconday children={"visit website"} href={item.link} />
             </div>
           </div>
         ))}
+        <div className="mx-auto w-fit">
+          {" "}
+          <Button href={"/showcase"} children={"See More work"} />
+        </div>
       </div>
     </div>
   );

@@ -8,10 +8,10 @@ const Hero: React.FC = () => {
         <div className="space-y-5">
           <Image
             src={"/images/myself.png"}
-            width={170}
-            height={175}
+            width={200}
+            height={200}
             alt="myself"
-            className="mx-auto"
+            className="mx-auto rounded-md"
           />
 
           <div className="text-center">

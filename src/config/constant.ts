@@ -1,6 +1,7 @@
 import classNames from "classnames";
 import {
   ItemTypes,
+  articlesTypes,
   navItemsTypes,
   portfolioItemsTypes,
   skillsTypes,
@@ -195,5 +196,29 @@ export const socialIcons: socialIconsTypes[] = [
     id: 3,
     imgSrc: "/icons/social-icons/github.png",
     link: "https://github.com/ferdousaofficial",
+  },
+];
+
+export const articles: articlesTypes[] = [
+  {
+    id: 1,
+    coverImage: "/images/works/project-1.png",
+    title:
+      "The loss of not investing in a professional web development service.",
+    link: "/articles/01",
+  },
+  {
+    id: 2,
+    coverImage: "/images/works/project-1.png",
+    title:
+      "Why do businesses lose tons of customers due to outdated, user-unfriendly websites?",
+    link: "/articles/02",
+  },
+  {
+    id: 3,
+    coverImage: "/images/works/project-1.png",
+    title:
+      "The loss of not investing in a professional web development service.",
+    link: "/articles/03",
   },
 ];
