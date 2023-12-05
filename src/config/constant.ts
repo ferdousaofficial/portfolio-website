@@ -4,6 +4,7 @@ import {
   navItemsTypes,
   portfolioItemsTypes,
   skillsTypes,
+  socialIconsTypes,
 } from "./types";
 
 // whenever we need to change default className value we will use this
@@ -175,5 +176,24 @@ export const portfolioItems: portfolioItemsTypes[] = [
     text: "I developed the front-end of this e-commerce website. It is built with Next Js 14 , Tailwind Css , and Framer Motion.",
     link: "https:shopscript-web.vercel.app",
     align: "left",
+  },
+];
+
+// social icons
+export const socialIcons: socialIconsTypes[] = [
+  {
+    id: 1,
+    imgSrc: "/icons/social-icons/linkedin.png",
+    link: "https://www.linkedin.com/in/ferdousaofficial",
+  },
+  {
+    id: 2,
+    imgSrc: "/icons/social-icons/email.png",
+    link: "mailto:ferdousaofficial@gmail.com",
+  },
+  {
+    id: 3,
+    imgSrc: "/icons/social-icons/github.png",
+    link: "https://github.com/ferdousaofficial",
   },
 ];

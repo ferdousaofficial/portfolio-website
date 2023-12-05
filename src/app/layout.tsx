@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Playfair_Display, Poppins } from "next/font/google";
 import "./globals.css";
 import Header from "./components/common/Header/header";
+import Footer from "./components/common/footer";
 
 // main font
 const poppins = Poppins({
@@ -32,8 +33,9 @@ export default function RootLayout({
       <body
         className={`${poppins.className} ${playfairDisplay.variable} text-[15px] text-textColor1`}
       >
-        <Header/>
+        <Header />
         {children}
+        <Footer />
       </body>
     </html>
   );

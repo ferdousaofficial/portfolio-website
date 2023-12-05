@@ -43,3 +43,10 @@ export interface portfolioItemsTypes {
   link: string;
   align: string;
 }
+
+// define interface for social Icons
+export interface socialIconsTypes {
+  id: number;
+  link: string;
+  imgSrc: string;
+}
