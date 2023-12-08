@@ -1,4 +1,5 @@
 import Articles from "./components/ui/Articles";
+import Contact from "./components/ui/Contact";
 import Hero from "./components/ui/hero";
 import OurApproch from "./components/ui/ourApproach";
 import Services from "./components/ui/services";
@@ -14,6 +15,7 @@ const page: React.FC = () => {
       <OurApproch />
       <Works />
       <Articles />
+      <Contact />
     </div>
   );
 };

@@ -10,7 +10,7 @@ const Services: React.FC = () => {
 
         <div
           className="flex items-center justify-center flex-wrap"
-          id="#service"
+          id="service"
         >
           {ServiceItems.map((item) => (
             <div

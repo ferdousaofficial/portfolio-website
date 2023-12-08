@@ -1,5 +1,6 @@
 import classNames from "classnames";
 import {
+  ContactFormInputTypes,
   ItemTypes,
   articlesTypes,
   navItemsTypes,
@@ -220,5 +221,39 @@ export const articles: articlesTypes[] = [
     title:
       "The loss of not investing in a professional web development service.",
     link: "/articles/03",
+  },
+];
+
+//  contact form inputs
+export const contactFormInputs: ContactFormInputTypes[] = [
+  {
+    id: 1,
+    type: "text",
+    placeholder: "FullName *",
+    required: true,
+  },
+  {
+    id: 2,
+    type: "text",
+    placeholder: "Company Name",
+    required: false,
+  },
+  {
+    id: 3,
+    type: "email",
+    placeholder: "Email Address *",
+    required: true,
+  },
+  {
+    id: 4,
+    type: "text",
+    placeholder: "Website",
+    required: false,
+  },
+  {
+    id: 5,
+    type: "text",
+    placeholder: "What kind of service do you need? *",
+    required: true,
   },
 ];

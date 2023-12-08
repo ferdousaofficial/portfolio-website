@@ -58,3 +58,11 @@ export interface articlesTypes {
   title: string;
   link: string;
 }
+
+// define interface for articles
+export interface ContactFormInputTypes {
+  id: number;
+  type: string;
+  placeholder: string;
+  required: boolean;
+}
