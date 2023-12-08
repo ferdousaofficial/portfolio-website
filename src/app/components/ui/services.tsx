@@ -6,7 +6,7 @@ const Services: React.FC = () => {
   return (
     <div className="pt-[50px]">
       <div className="container">
-        <SectionTtitle title="Get More Customers with Our Web Developer Services" />
+        <SectionTtitle title="Get More Customers with Our Web Development Services" />
 
         <div
           className="flex items-center justify-center flex-wrap"

@@ -5,7 +5,7 @@ import Button from "../common/button";
 
 const Works: React.FC = () => {
   return (
-    <div className="pt-[80px]" id="works">
+    <div className="md:pt-[80px] pt-[50px]" id="works">
       <div className="container">
         <SectionTtitle title="Highlights from My Portfolio" />
         {portfolioItems.map((item) => (

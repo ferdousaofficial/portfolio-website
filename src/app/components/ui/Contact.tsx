@@ -5,7 +5,7 @@ import Button from "../common/button";
 
 const Contact: React.FC = () => {
   return (
-    <div className="pt-[80px]" id="contact">
+    <div className="md:pt-[80px] pt-[50px]" id="contact">
       <div className="container">
         <SectionTtitle
           title="Connect with Us for Collaboration and Support"
@@ -27,7 +27,7 @@ const Contact: React.FC = () => {
             />
           ))}
           <div>
-            <Button children={"Submit"} styles={'w-full'} />
+            <Button children={"Submit"} styles={"w-full"} />
           </div>
         </form>
       </div>

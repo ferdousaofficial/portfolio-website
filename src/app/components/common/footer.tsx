@@ -4,7 +4,7 @@ import { socialIcons } from "@/config/constant";
 
 const Footer: React.FC = () => {
   return (
-    <div className="pt-[80px] pb-[30px]">
+    <div className="md:pt-[80px] pt-[50px] pb-[30px]">
       <div className="container">
         <div className="flex items-center flex-wrap justify-center gap-5 sm:justify-between">
           <div>

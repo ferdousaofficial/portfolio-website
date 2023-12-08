@@ -4,12 +4,15 @@ import SectionTtitle from "../common/SectionTtitle";
 
 const OurApproch: React.FC = () => {
   return (
-    <div className="pt-[80px]">
+    <div className="md:pt-[80px] pt-[50px]">
       <div className="container">
         <SectionTtitle title="Our Step-by-Step Approach to build a website" />
         <div className="flex item-center md:justify-between justify-center flex-wrap">
           {OurApprochItems.map((item) => (
-            <div key={item.id} className="lg:basis-[22%] md:basis-1/3 w-[90%] lg:m-0 m-6">
+            <div
+              key={item.id}
+              className="lg:basis-[22%] md:basis-1/3 w-[90%] lg:m-0 m-6"
+            >
               <div className="flex items-center flex-col gap-3 relative">
                 <span className="uppercase text-textColor2 text-sm">step</span>
                 <Image src={item.icon} alt="icon" width={70} height={70} />
