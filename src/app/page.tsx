@@ -1,4 +1,3 @@
-import Articles from "./components/ui/Articles";
 import Contact from "./components/ui/Contact";
 import Hero from "./components/ui/hero";
 import OurApproch from "./components/ui/ourApproach";
@@ -14,7 +13,6 @@ const page: React.FC = () => {
       <Services />
       <OurApproch />
       <Works />
-      <Articles />
       <Contact />
     </div>
   );
